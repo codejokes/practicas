@@ -49,13 +49,39 @@ console.log(persona, persona2);*/
 const nombre1 = 'Diego';//String
 const nombre2 = new String('Diego');//object 
 
-console.log(nombre2);
+//console.log(nombre2);
 //numeros 
 const numero1 = 20;
 const numero2 = new Number(20);
+//boleanos
+const boolean1 = true;
+const boolean2 = new Boolean(true);
+//funciones
 
-console.log(numero1);
-console.log(numero2);
+
+
+const funcion1 = function(a,b) {
+    return a+b;
+}
+
+//creando el objeto de una funcion
+const funcion2 = new Function('a', 'b', 'return a+b');
+
+
+//crear objetos
+const persona1 = {
+    nombre: 'Juan'
+}
+const persona2 = new Object({nombre: 'Diego'});
+
+
+//Arreglos 
+const arreglo1 = [1,2,3,4];
+const arreglo2 = new Array(1,2,3,4);
+
+console.log(arreglo1);
+console.log(arreglo2);
+
 
 
 
